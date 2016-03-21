@@ -1,0 +1,41 @@
+body {
+  background: #84cdca;
+  color: #E6FAF9;
+  text-align: center;
+}
+
+.text-input {
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+  height: 25px;
+  border: solid 5px #56AAA7;
+  margin: 0 0 20px 0;
+  /*padding: 10px;*/;
+  transition: border 0.3s;
+  outline: none;
+}
+
+.text-input:focus,
+.text-input.focus {
+  border: solid 5px #348C89;
+}
+
+.btn {
+  background: #56AAA7;
+  color: #E6FAF9;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  outline: 0;
+  transition: background 0.1s;
+}
+
+.btn:hover {
+  background: #348C89;
+}
+
+.display-h1 {
+  transition: content 0.3s;
+}
