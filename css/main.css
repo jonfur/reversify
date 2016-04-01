@@ -1,16 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #84cdca;
   color: #E6FAF9;
   text-align: center;
 }
 
+.header {
+  background: #B6E8E6;
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  text-align: left;
+  position: relative;
+}
+
+.header-title {
+  position: absolute;
+  font-size: 100px;
+  display: block;
+  text-align: left;
+  bottom: -20px;
+}
+
+.subtitle {
+  position: relative;
+  display: block;
+  text-align: right;
+  top: 75px;
+  right: 10px;
+}
+
 .text-input {
-  font-size: 18px;
+  font-size: 30px;
   text-align: center;
-  width: 300px;
-  height: 25px;
+  width: 500px;
+  height: 100px;
   border: solid 5px #56AAA7;
-  margin: 0 0 20px 0;
+  margin: 100px 0 25px 0;
   /*padding: 10px;*/;
   transition: border 0.3s;
   outline: none;
@@ -30,6 +61,7 @@ body {
   padding: 15px 30px;
   outline: 0;
   transition: background 0.1s;
+  margin: 0 0 50px 0;
 }
 
 .btn:hover {
@@ -38,5 +70,5 @@ body {
 
 #display-h1 {
   opacity: 0;
-  transition: all .75s;
+  transition: all .6s ease-in-out;
 }
