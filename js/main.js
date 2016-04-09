@@ -39,7 +39,7 @@ function opacitySwitch () {
 };
 
 /*change opacity to 0 from 1, triggering transition, resulting in fade out
-effect. add listener to displayH1. see below for details*/
+effect. add listener to displayH1. see below for listener details*/
 function fadeOut () {
   displayH1.style.opacity = 0;
   addListener();
